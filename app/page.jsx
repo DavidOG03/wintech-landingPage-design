@@ -466,7 +466,7 @@ export default function Home() {
             passion for serving our customers with excellence
           </motion.p>
           <div className="testimonials-container overflow-hidden w-full h-full">
-            <motion.div className="testimonial-slide flex flex-row justify-center w-full gap-4 py-[60px] animation-slide "
+            <motion.div className="testimonial-slide flex flex-row lg:justify-center w-full gap-4 py-[60px] animation-slide overflow-x-scroll lg:overflow-hidden"
             variants={fadeup}
             initial="hidden"
             whileInView="visible"
