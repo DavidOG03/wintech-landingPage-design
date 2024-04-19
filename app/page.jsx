@@ -394,7 +394,7 @@ export default function Home() {
             />
             <Link
               href="/"
-              className="text-[18px] leading-[18px] font-medium text-white inline-block px-[28px] py-4 ml-[60px] mr-auto button outline-none"
+              className="text-[18px] leading-[18px] font-medium text-white inline-block px-[28px] py-4 ml-[60px] mr-auto button outline-none tracking-tighter"
             >
               View More
             </Link>
@@ -408,7 +408,7 @@ export default function Home() {
           viewport={{ once: true }}
         >
           <motion.h3
-            className="text-white text-[60px] leading-[60px] font-bold lg:text-[80px] lg:leading-[80px] xl:text-[100px] xl:leading-[100px]"
+            className="text-white text-[60px] leading-[60px] font-bold lg:text-[80px] lg:leading-[80px] xl:text-[100px] xl:leading-[100px] tracking-tighter"
             variants={letter}
             initial="hidden"
             whileInView="visible"
@@ -429,7 +429,7 @@ export default function Home() {
           </motion.p>
           <motion.a
             href="/"
-            className=" bg-purple border border-purple transition px-5 py-6 text-white mt-10 hover:text-purple hover:bg-white hover:transition; rounded-none mx-auto text-center grid place-items-center outline-none lg:col-start-2 lg:col-span-1 lg:w-full lg:max-w-[400px] "
+            className=" bg-purple border border-purple transition px-5 py-6 text-white mt-10 hover:text-purple hover:bg-white hover:transition; rounded-none mx-auto text-center grid place-items-center outline-none lg:col-start-2 lg:col-span-1 lg:w-full lg:max-w-[400px] tracking-tighter"
             variants={letter}
             initial="hidden"
             whileInView="visible"
@@ -456,7 +456,7 @@ export default function Home() {
             Trusted by more than 1000+ users around the world
           </motion.h3>
           <motion.p
-            className="text-black text-base font-medium text-center mx-auto max-w-[600px]"
+            className="text-black text-base font-medium text-center mx-auto max-w-[600px] tracking-tighter"
             variants={letter}
             initial="hidden"
             whileInView="visible"
@@ -513,7 +513,7 @@ export default function Home() {
             Our Newsletter
           </motion.h4>
           <motion.p
-            className=" text-purpleText font-medium text-base text-center pb-8 lg:text-[18px]"
+            className=" text-purpleText font-medium text-base text-center pb-8 lg:text-[18px] tracking-tighter"
             variants={letter}
             initial="hidden"
             whileInView="visible"
@@ -534,11 +534,11 @@ export default function Home() {
               name="email"
               id="email"
               placeholder="Enter your Email Address"
-              className="w-full h-full py-3 px-4 rounded-lg border border-purple outline-none hover:border-purple text-purple lg:py-6 lg:px-8"
+              className="w-full h-full py-3 px-4 rounded-lg border border-purple outline-none hover:border-purple text-purple lg:py-6 lg:px-8 tracking-tighter"
             />
             <button
               type="submit"
-              className="inline-block h-full bg-purple text-white border border-purple transition hover:bg-white hover:text-purple absolute bottom-0 right-0 px-4 py-2 border-top rounded-r-lg outline-none lg:px-8"
+              className="inline-block h-full bg-purple text-white border border-purple transition hover:bg-white hover:text-purple absolute bottom-0 right-0 px-4 py-2 border-top rounded-r-lg outline-none lg:px-8 tracking-tighter"
             >
               Join
             </button>
