@@ -44,8 +44,8 @@ const Testimony = ({ story, name }) => {
           );
         })}
       </div>
-      <p className="text-black text-[18px] text-left">{story}</p>
-      <span className="name text-black font-medium text-[20px]">{name}</span>
+      <p className="text-black text-[18px] text-left tracking-tighter">{story}</p>
+      <span className="name text-black font-medium text-[20px] tracking-tighter">{name}</span>
     </motion.div>
   );
 };
