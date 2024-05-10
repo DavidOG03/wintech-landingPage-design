@@ -242,7 +242,7 @@ export default function Home() {
             state-of-the-art digital innovations
           </motion.p>
           <motion.button
-            className="start mr-auto button outline-none lg:col-start-4 lg:col-span-2 xl:text-[18px] tracking-tighter"
+            className="start mr-auto ml-8 button outline-none lg:col-start-4 lg:col-span-2 xl:text-[18px] tracking-tighter"
             variants={letter}
             initial="hidden"
             whileInView="visible"
